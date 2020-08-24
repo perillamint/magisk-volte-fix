@@ -11,6 +11,6 @@ fi
 ui_print "Installing $ARCHFILE"
 
 unzip -o "$ZIPFILE" "$ARCHFILE/*" -d "$TMPDIR"
-cp -r "$TMPDIR/$ARCHFILE/*" "$MODPATH/system/"
+cp -r "$TMPDIR/$ARCHFILE/"* "$MODPATH/system/"
 
 ui_print "Installation successful!"
