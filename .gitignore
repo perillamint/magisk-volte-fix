@@ -1,0 +1,4 @@
+system/
+system32/
+system64/
+*.zip
