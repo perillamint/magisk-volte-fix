@@ -6,4 +6,4 @@ wget https://github.com/KhushrajRathod/VoLTE-Fix/releases/download/v5/GSI-Qualco
 unzip volte-fix.zip 'system*/*' -d .
 rm -f volte-fix.zip
 
-zip -x 'createzip.sh' -x '*.zip' -x 'LICENSE' -x 'README.md' -r9 volte.zip *
+zip -x 'createzip.sh' -x '*.zip' -x 'LICENSE' -x 'README.md' -x 'keys/*' -x 'keys.sh' -x 'stuff/*' -x '*.log' -r9 volte.zip *
